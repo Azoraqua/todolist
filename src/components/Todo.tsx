@@ -7,7 +7,6 @@ export type TodoProps = {
 };
 
 export default function Todo({
-  id,
   name,
   completed,
   onToggle,

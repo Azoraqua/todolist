@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   const [todos, setTodos] = useState<TodoProps[]>([]);
 
-  function addTodo(name: string) {
+  function addTodo(name: TodoProps["name"]) {
     setTodos((prev) => [
       ...prev,
 
