@@ -29,3 +29,19 @@
   margin-bottom: 1em;
   border-radius: 5px;
 }
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    background-color: #272727;
+    color: #ccc;
+    color-scheme: dark;
+  }
+}
+
+@media (prefers-color-scheme: white) {
+  html,
+  body {
+    color-scheme: light;
+  }
+}
